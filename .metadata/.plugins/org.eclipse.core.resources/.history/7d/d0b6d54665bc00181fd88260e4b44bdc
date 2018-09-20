@@ -1,0 +1,25 @@
+package edu.ngeorge;
+
+public class WhileLoop 
+{
+
+	public void createMask()
+	{
+		String word = "Horse";
+	}
+	
+	public void whileSample()
+	{
+		int i = 0;
+		while(keepRunning())
+		{
+			System.out.println("Help me, I don't know how to stop!");
+			i++;
+		}
+	}
+	
+	private boolean keepRunning()
+	{
+		return true;
+	}
+}
