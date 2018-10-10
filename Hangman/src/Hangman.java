@@ -46,27 +46,27 @@ public class Hangman
 	{
 		if (count == 1) {
 			System.out.println("Wrong guess, try again");
-			
+			System.out.println("First wrong guess, 6 more wrong guesses left.");
 		}
 		if (count == 2) {
 			System.out.println("Wrong guess, try again");
-			
+			System.out.println("Second wrong guess, 5 more wrong guesses left.");
 		}
 		if (count == 3) {
 			System.out.println("Wrong guess, try again");
-			
+			System.out.println("Third wrong guess, 4 more wrong guesses left.");
 		}
 		if (count == 4) {
 			System.out.println("Wrong guess, try again");
-			
+			System.out.println("Fourth wrong guess, 3 more wrong guesses left.");
 		}
 		if (count == 5) {
 			System.out.println("Wrong guess, try again");
-			
+			System.out.println("Fifth wrong guess, 2 more wrong guesses left.");
 		}
 		if (count == 6) {
 			System.out.println("Wrong guess, try again");
-			
+			System.out.println("Sixth wrong guess, 1 more wrong guess left.");
 		}
 		if (count == 7) {
 			System.out.println("GAME OVER! The word was " + word);
