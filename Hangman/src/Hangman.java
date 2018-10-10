@@ -34,7 +34,7 @@ public class Hangman
 
 		if (asterisk.equals(newasterisk)) {
 			count++;
-			hangmanImage();
+			hangman();
 		} else {
 			asterisk = newasterisk;
 		}
@@ -42,16 +42,11 @@ public class Hangman
 			System.out.println("Correct! You win! The word was " + word);}
 		}	
 
-	public static void hangmanImage() 
+	public static void hangman() 
 	{
 		if (count == 1) {
 			System.out.println("Wrong guess, try again");
-			System.out.println();
-			System.out.println();
-			System.out.println();
-			System.out.println();
-			System.out.println("___|___");
-			System.out.println();
+			
 		}
 		if (count == 2) {
 			System.out.println("Wrong guess, try again");
@@ -76,5 +71,5 @@ public class Hangman
 		if (count == 7) {
 			System.out.println("GAME OVER! The word was " + word);
 		}
-		}
+	}
 }
