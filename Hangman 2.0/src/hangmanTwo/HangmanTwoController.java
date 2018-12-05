@@ -6,12 +6,7 @@ public class HangmanTwoController {
 	
 	HangmanTwo[] games;
 	Scanner console = new Scanner(System.in);
-	
-	public HangmanTwoController()
-	{
-		games = new HangmanTwo[] {new HangmanTwo("Holy", "bible"), new HangmanTwo("Weird Name For Coffee", "java"), new HangmanTwo("Smoke", "fire")};
-	}
-		
+			
 		
 	public void playGame()
 	{

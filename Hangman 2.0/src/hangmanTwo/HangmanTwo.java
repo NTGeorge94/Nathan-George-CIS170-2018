@@ -1,8 +1,8 @@
 package hangmanTwo;
 
+
 public class HangmanTwo 
 {
-
 	private String hint;
 	private String word;
 	private String guesses = "";
